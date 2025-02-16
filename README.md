@@ -11,6 +11,8 @@ Step 3: Create the Vector Database, Add your PDF file path in the code.
 
 
 Step 3: Run the Bot
+
+
     python bot.py
 
 
@@ -20,6 +22,8 @@ Step 3: Run the Bot
 
 
 Overview:- 
+
+
 Step 1: Define the Project Goal
  We aimed to build a help bot that can answer user queries using a help document (PDF).
  It should use free and open-source LLMs (due to system limitations).
