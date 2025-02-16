@@ -19,7 +19,7 @@ def retrieve_relevant_docs(query, top_k=3):
     return results["documents"][0] if "documents" in results else []
 
 # LLM for Answer Generation using Gemini API
-llm = ChatGoogleGenerativeAI(model="gemini-pro", api_key="AIzaSyCIfetDylHOyWkm3Ro9gh6pToLzLcRAbls")  # Replace with your Gemini API Key
+llm = ChatGoogleGenerativeAI(model="gemini-pro", api_key="")  # Replace with your Gemini API Key
 
 def generate_response(query):
     retrieved_docs = retrieve_relevant_docs(query)
