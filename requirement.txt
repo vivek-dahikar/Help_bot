@@ -1,0 +1,8 @@
+langchain
+faiss-cpu
+llama-cpp-python
+pymupdf
+numpy
+tqdm
+openai
+sentence-transformers
